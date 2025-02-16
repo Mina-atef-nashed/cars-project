@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cars</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="position: relative;">
@@ -50,7 +51,7 @@
 
     <div class="section">
         <!-- <div><img src="images/welcome-hero/welcome-banner.jpg" class="img-fluid" alt="..."> -->
-        <div style="background-image: url(images/welcome-hero/welcome-banner.jpg);
+        <div class="  opacity-75" style="background-image: url(images/welcome-hero/welcome-banner.jpg);
             height: 100vh;
             background-position: center;">
             <h1 class="text-center text-light"
@@ -66,14 +67,14 @@
             </div>
 
             <section>
-                <div class="container bg-body-tertiary" style="height: 250px;margin-top: 150px;text-align: center;">
+                <div class="container bg-body-tertiary" style="height: 350px;margin-top: 150px;text-align: center;">
                     <form>
 
-                        <div style="padding: 100px;display: block;">
-                            <div class="container text-center">
+                        <div style="padding: 40px 10px;">
+                            <div class="container text-center ">
                                 <div class="row">
-                                    <div class="col">
-                                        <label>Select Year</label>
+                                    <div class="col homecol">
+                                        <h4 class="homeh4">Select Year</h4>
                                         <select>
                                             <option>Year</option>
                                             <option>2023</option>
@@ -81,9 +82,9 @@
                                             <option>2025</option>
                                         </select>
                                     </div>
-                                    <div class="col">
+                                    <div class="col homecol">
 
-                                        <label>Select Make</label>
+                                        <h4 class="homeh4">Select Make</h4>
                                         <select>
                                             <option>Make</option>
                                             <option>Toyota</option>
@@ -92,9 +93,9 @@
                                         </select>
                                     </div>
 
-                                    <div class="col">
+                                    <div class="col homecol">
 
-                                        <label>Select Model</label>
+                                        <h4 class="homeh4">Select Model</h4>
                                         <select>
                                             <option>Model</option>
                                             <option>Kia-Rio</option>
@@ -102,12 +103,19 @@
                                             <option>Ford</option>
                                         </select>
                                     </div>
+                                    <div class="col homecol">
+                                        <button class="welcome-btn model-search-btn bg-primary text-light"
+                                            onclick="window.location.href='#'"
+                                            style="height: 70px;width: 180px;font-size: 20px;border: 0;margin-top: 50px;">
+                                            search
+                                        </button>
+                                    </div>
                                 </div>
 
 
                                 <div class="row">
-                                    <div class="col">
-                                        <label>Body Style</label>
+                                    <div class="col homecol">
+                                        <h4 class="homeh4">Body Style</h4>
                                         <select>
                                             <option>Style</option>
                                             <option>Sedan</option>
@@ -116,8 +124,8 @@
                                         </select>
                                     </div>
 
-                                    <div class="col">
-                                        <label>Car Condition</label>
+                                    <div class="col homecol">
+                                        <h4 class="homeh4">Car Condition</h4>
                                         <select>
                                             <option>Condition</option>
                                             <option>Something</option>
@@ -127,8 +135,8 @@
                                     </div>
 
 
-                                    <div class="col">
-                                        <label>Select Price</label>
+                                    <div class="col homecol">
+                                        <h4 class="homeh4">Select Price</h4>
                                         <select>
                                             <option>Price</option>
                                             <option>0$</option>
@@ -136,13 +144,345 @@
                                             <option>0$</option>
                                         </select>
                                     </div>
+                                    <div class="col"></div>
                                 </div>
                     </form>
             </section>
 
         </div>
 
+        <section class=" containersevice">
+            <form class="service">
+
+                <div class="part1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/846/846296.png" alt="car" width="60px" />
+                    <h3 class="service-h3">largest dealership of Car</h3>
+                    <h4 class="service-h4">
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.
+                    </h4>
+
+                    <span class="br"> </span>
+                </div>
+
+
+                <div class="part1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4634/4634590.png" alt="car-repair" width="60px" />
+                    <h3 class="service-h3">unlimited repair warrenty</h3>
+                    <h4 class="service-h4">
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.
+                    </h4>
+                    <span class="br"> </span>
+                </div>
+
+                <div class="part1">
+                    <img src="   https://cdn-icons-png.flaticon.com/512/9819/9819060.png" alt="car" width="60px" />
+                    <h3 class="service-h3">insurence support</h3>
+                    <h4 class="service-h4">
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia.
+                    </h4>
+                    <span class="br"> </span>
+                </div>
+            </form>
+        </section>
+
+        <section class=" container containerfeatured">
+            <div class="headfeatured">
+                <p>checkout the latest cars</p>
+                <h2>newest cars</h2>
+                <span class="br2"></span>
+            </div>
+            <div class="featured">
+                <div class="image">
+                    <img src="images/new-cars-model/ncm1.png" alt="new-cars-model">
+                </div>
+                <div class="text">
+                    <h2>chevrolet camaro za100</h2>
+                    <pre>
+                    Duis aute irure dolor in reprehenderit in voluptate 
+                    velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt
+                    in culpa qui officia deserunt mollit anim id est 
+                    laborum. 
+
+                    Sed ut pers unde omnis iste natus error sit 
+                    voluptatem accusantium doloremque laudantium. 
+											
+                    </pre>
+
+                    <button class="btn btn-primary"> view details</button>
+                </div>
+            </div>
+            <!-- <a href="#">ferrari 488 superfast</a> -->
+
+            <!-- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  -->
+        </section>
+
+        <section class=" container containerfeaturedcars">
+            <div class="headfeatured">
+                <p>checkout the featured cars
+                </p>
+                <h2>featured cars</h2>
+                <span class="br2"></span>
+
+                <div class=" container  text-center ">
+
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card card-total" style="width: 18rem;height: 11.5rem;">
+                                <img src="images/featured-cars/fc1.png" class="card-img-top" alt="fc1.png"
+                                    style="width: 70%;margin: auto;padding-top: 60px;">
+                                <div class="card-body">
+
+                                    <pre class="card-title card" style="width: 18rem;height:4.5rem;">model:2017  3100 mi 240HP
+     automatic
+                        </pre>
+
+                                    <p class="card-text">BMW 6-series gran coupe</p>
+                                    <p> $89,395 </p>
+                                    <p class="para"> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                        consectetur,
+                                        adipisci velit,
+                                        sed quia non.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-total" style="width: 18rem;height: 11.5rem;">
+                                <img src="images/featured-cars/fc2.png" class="card-img-top" alt="fc2.png"
+                                    style="width: 70%;margin: auto;padding-top: 60px;">
+                                <div class="card-body">
+
+                                    <pre class="card-title card" style="width: 18rem;height:4.5rem;">model:2017  3100 mi 240HP
+         automatic
+                            </pre>
+
+                                    <p class="card-text">chevrolet camaro wmv20 </p>
+                                    <p> $66,575 </p>
+                                    <p class="para"> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                        consectetur,
+                                        adipisci velit,
+                                        sed quia non.</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-total" style="width: 18rem;height: 11.5rem;">
+                                <img src="images/featured-cars/fc3.png" class="card-img-top" alt="fc3.png"
+                                    style="width: 70%;margin: auto;padding-top: 60px;">
+                                <div class="card-body">
+
+                                    <pre class="card-title card" style="width: 18rem;height:4.5rem;">model:2017  3100 mi 240HP
+         automatic
+                            </pre>
+
+                                    <p class="card-text">lamborghini v520</p>
+                                    <p> $125,250 </p>
+                                    <p class="para"> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                        consectetur,
+                                        adipisci velit,
+                                        sed quia non.</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-total" style="width: 18rem;height: 11.5rem;">
+                                <img src="images/featured-cars/fc4.png" class="card-img-top" alt="fc4.png"
+                                    style="width: 70%;margin: auto;padding-top: 60px;">
+                                <div class="card-body">
+
+                                    <pre class="card-title card" style="width: 18rem;height:4.5rem;">model:2017  3100 mi 240HP
+         automatic
+                            </pre>
+
+                                    <p class="card-text">audi a3 sedan</p>
+                                    <p>$95,500 </p>
+                                    <p class="para"> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                        consectetur,
+                                        adipisci velit,
+                                        sed quia non.</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div class=" container  text-center ">
+                <div class="row bottom">
+                    <div class="col-3">
+                        <div class="card card-total" style="width: 18rem;height: 11.5rem;">
+                            <img src="images/featured-cars/fc5.png" class="card-img-top" alt="fc5.png"
+                                style="width: 70%;margin: auto;padding-top: 60px;">
+                            <div class="card-body">
+
+                                <pre class="card-title card" style="width: 18rem;height:4.5rem;">model:2017  3100 mi 240HP
+     automatic
+                        </pre>
+
+                                <p class="card-text">infiniti z5</p>
+                                <p> $36,850 </p>
+                                <p class="para"> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                    consectetur,
+                                    adipisci velit,
+                                    sed quia non.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card card-total" style="width: 18rem;height: 11.5rem;">
+                            <img src="images/featured-cars/fc6.png" class="card-img-top" alt="fc6.png"
+                                style="width: 70%;margin: auto;padding-top: 60px;">
+                            <div class="card-body">
+
+                                <pre class="card-title card" style="width: 18rem;height:4.5rem;">model:2017  3100 mi 240HP
+         automatic
+                            </pre>
+
+                                <p class="card-text">porsche 718 cayman</p>
+                                <p>$48,500 </p>
+                                <p class="para"> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                    consectetur,
+                                    adipisci velit,
+                                    sed quia non.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="card card-total" style="width: 18rem;height: 11.5rem;">
+                            <img src="images/featured-cars/fc7.png" class="card-img-top" alt="fc7.png"
+                                style="width: 70%;margin: auto;padding-top: 60px;">
+                            <div class="card-body">
+
+                                <pre class="card-title card" style="width: 18rem;height:4.5rem;">model:2017  3100 mi 240HP
+         automatic
+                            </pre>
+
+                                <p class="card-text">bmw 8-series coupe</p>
+                                <p> $56,000 </p>
+                                <p class="para"> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                    consectetur,
+                                    adipisci velit,
+                                    sed quia non.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-3">
+                        <div class="card card-total" style="width: 18rem;height: 11.5rem;">
+                            <img src="images/featured-cars/fc8.png" class="card-img-top" alt="fc8.png"
+                                style="width: 70%;margin: auto;padding-top: 60px;">
+                            <div class="card-body">
+
+                                <pre class="card-title card" style="width: 18rem;height:4.5rem;">model:2017  3100 mi 240HP
+         automatic
+                            </pre>
+
+                                <p class="card-text">BMW xseries-6</p>
+                                <p> $75,800 </p>
+                                <p class="para"> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                                    consectetur,
+                                    adipisci velit,
+                                    sed quia non.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+        </section>
+
+        <section class="client">
+            <div class="container clientsay">
+                <h2>what our clients say</h2>
+                <span class="br2"></span>
+            </div>
+            <div class="container text-center">
+                <div class="row rowclint">
+                    <div class=" col-4  cardclint">
+                        <img src="images/clients/c1.png">
+                        <p>
+                            Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam,
+                            eaque ipsa quae ab illo inventore verit.
+                        </p>
+                        <a href="#">tomas lili</a>
+                        <h4>new york</h4>
+                    </div>
+                    <div class=" col-4 cardclint">
+                        <img src="images/clients/c2.png">
+                        <p>
+                            Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam,
+                            eaque ipsa quae ab illo inventore verit.
+                        </p>
+                        <a href="#">romi rain</a>
+                        <h4>london</h4>
+                    </div>
+                    <div class=" col-4 cardclint">
+                        <img src="images/clients/c3.png">
+                        <p>
+                            Sed ut pers unde omnis iste natus error sit voluptatem accusantium dolor laudan rem aperiam,
+                            eaque ipsa quae ab illo inventore verit.
+                        </p>
+                        <a href="#">john doe</a>
+                        <h4>washington</h4>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="brands">
+            <div class="container text-center ">
+                <div class="row  ">
+                    <div class="col ">
+                        <img src="images/brand/br1.png">
+                    </div>
+                    <div class="col">
+                        <img src="images/brand/br2.png">
+                    </div>
+                    <div class="col ">
+                        <img src="images/brand/br3.png">
+                    </div>
+
+
+                    <div class="col">
+                        <img src="images/brand/br4.png">
+                    </div>
+                    <div class="col">
+                        <img src="images/brand/br5.png">
+                    </div>
+                    <div class="col ">
+                        <img src="images/brand/br6.png">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foter">
+
+            </div>
+        </footer>
 
 </body>
 
 </html>
+
+
+
+
+<!-- <a href="#">BMW series-3 wagon</a> -->
+
+<!-- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  -->
+
+
+
+<!-- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint -->
+<!-- occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
